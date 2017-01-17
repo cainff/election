@@ -1,0 +1,66 @@
+
+body {
+    background: url('../vote.jpg');
+    background-size: cover;
+}
+
+
+.dis {
+    display:none;
+}
+
+
+.submitclass {
+    display: block;
+    border: 1px solid #fdfdfd;
+    background-color: #fdfdfd;
+    height: 50px;
+    width: 150px;
+    font-family: 'Roboto', sans-serif;
+    font-size:12px;
+    box-shadow: 0px 1px 1px 0px;
+    text-align: center;
+    margin-top:20px;
+}
+
+.inputclass {
+    display: block;
+    border: 1px solid #fdfdfd;
+    background-color: #fdfdfd;
+    height: 25px;
+    width: 150px;
+    font-family: 'Roboto', sans-serif;
+    font-size:12px;
+    box-shadow: 0px 1px 1px 0px;
+    text-align: center;
+    margin-top:20px;
+}
+
+.create {
+        display: block;
+        height: 25px;
+        margin-top:20px;
+
+}
+
+
+#candidatslist {
+    position: relative;
+    float: right;
+    display: inline;
+    right: 1020px;
+    top: -45px;
+}
+
+li {
+    border-bottom: 2px solid red;
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+.wrap {
+    width: 20%;
+    margin:0 auto;
+}
+
+

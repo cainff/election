@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+        <link rel="stylesheet" type="text/css" href="/css/election.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+
+</head>
+<body>
+   
+   <div class="wrap">
+    <h1>Election</h1>
+    
+    <button class="submitclass create" id="candidat">Voir les Candidats</button>
+    
+    <ul id="candidatslist"></ul>
+    
+    
+    
+    <form class="dis" id="createvotant">
+            <input class="inputclass" type="text" id="firstname" name="firstname" placeholder="Entrez votre nom"/>  
+            
+            <input class="inputclass" type="text" id="lastname" name="lastname" placeholder="Entrez votre prenom"/>  
+            
+            <input class="inputclass" type="text" id="age" name="age" placeholder="Entrez votre âge"/>
+            
+            <input id="c_votant" class="submitclass create" type="submit" value="Create">
+        
+    </form>   
+           
+              
+   <form id="createvote" class="dis">
+            
+            <input type="text" class="inputclass" id="votant_" name="voters" placeholder="ID_votant"/>  
+            
+            <input type="text" class="inputclass" id="candidat_" name="candidate" placeholder="ID_candidat"/>  
+            
+            
+            
+            <input id="c_vote" class="submitclass create" type="submit" value="Create">    
+        
+</form>    
+   
+   
+    <button class="submitclass dis" id="result">Voir les résultats</button>
+    <ul id="result_list"></ul>
+    
+    
+
+    
+    <script src="/js/election.js"></script>
+    
+    </div>
+</body>
+</html>
